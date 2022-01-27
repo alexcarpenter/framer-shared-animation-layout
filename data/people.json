@@ -1,0 +1,29 @@
+{
+  "people": [
+    {
+      "avatar": "/brandon-romano.jpeg",
+      "name": "Brandon Romano",
+      "position": "Lead Engineer"
+    },
+    {
+      "avatar": "/bryce-kalow.jpeg",
+      "name": "Bryce Kalow",
+      "position": "Sr Web Engineer"
+    },
+    {
+      "avatar": "/ashlee-boyer.png",
+      "name": "Ashlee Boyer",
+      "position": "Web Engineer"
+    },
+    {
+      "avatar": "/noel-quiles.jpeg",
+      "name": "Noel Quiles",
+      "position": "Web Engineer"
+    },
+    {
+      "avatar": "/pamela-bortnick.png",
+      "name": "Pamela Bortnick",
+      "position": "Web Engineer"
+    }
+  ]
+}

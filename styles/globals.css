@@ -6,6 +6,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -13,4 +17,41 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+}
+
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.person-wrap {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.person {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.person-dialog {
+  position: relative;
+  pointer-events: auto;
+}
+
+.person-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
